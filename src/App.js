@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Pagination from "react-pagination-library";
 import "react-pagination-library/build/css/index.css"; //for css
@@ -94,7 +93,7 @@ class App extends Component {
   }
 
   changeCurrentPage = numPage => {
-  this.setState({ currentPage: numPage });
+    this.setState({ currentPage: numPage });
   };
 
   searchArticle = (value) =>{
@@ -109,9 +108,9 @@ class App extends Component {
   }
 
   closeModal() {
-      this.setState({
-          visible : false
-      });
+    this.setState({
+        visible : false
+    });
   }
 
   render() {
